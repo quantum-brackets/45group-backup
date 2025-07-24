@@ -310,6 +310,9 @@ CREATE POLICY "Allow public read-only access." ON "public"."users" FOR SELECT US
 ALTER TABLE "public"."bookings" ENABLE ROW LEVEL SECURITY;
 
 
+ALTER TABLE "public"."db_init_marker_v4" ENABLE ROW LEVEL SECURITY;
+
+
 ALTER TABLE "public"."listing_inventory" ENABLE ROW LEVEL SECURITY;
 
 
